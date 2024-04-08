@@ -1,0 +1,47 @@
+{
+    "flowchart":[
+        {
+            "text": "Approve Content",
+            "hasTrailArrow": true,
+            "activeTime": "Day(s)",
+            "waitTime": "Week(s) (wait for availability)",
+            "activeNumeric": 1,
+            "waitNumeric": 14
+        }, 
+        {
+            "text": "Create Content",
+            "hasTrailArrow": true,
+            "activeTime": "Day(s)",
+            "waitTime": "Week(s) (wait for approval authority)",
+            "activeNumeric": 2,
+            "waitNumeric": 7
+        },
+        {
+            "text": "Review Content",
+            "hasTrailArrow": true,
+            "activeTime": "Day(s)",
+            "waitTime": "Week(s) (wait for IT support)",
+            "activeNumeric": 1,
+            "waitNumeric": 14
+        },
+        {
+            "text": "Edit Content",
+            "hasTrailArrow": true,
+            "activeTime": "Day(s)",
+            "waitTime": "Day(s) (Implementation)",
+            "activeNumeric": 1,
+            "waitNumeric": 2
+        },
+        {
+            "text": "Finalize Content",
+            "hasTrailArrow": false,
+            "activeTime": "Day(s)",
+            "activeNumeric": 1
+        }
+    ],
+    
+        "flowTime": "43 Days",
+        "totalActiveTime": "6 Days",
+        "totalWaitTime": "37 Days"
+    
+}

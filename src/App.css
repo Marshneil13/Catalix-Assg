@@ -1,0 +1,19 @@
+.nav-div{
+  /* border: 1px solid purple; */
+  width: Hug (308.22px)px;
+height: Hug (825.89px)px;
+padding: 17px 8.89px 8.89px 14px;
+gap: 8.89px;
+opacity: 0px;
+}
+.content-div{
+  /* border: 1px solid purple; */
+  /* margin-top: 0px; */
+}
+
+.App{
+  display: grid;
+  grid-template-columns: 2fr 8fr;
+  grid-template-rows: max-content;
+  gap: 28px;
+}
