@@ -14,20 +14,20 @@
   padding-left: 30px;
 }
 .dashboard-buttons {
-  width: 60%;
+  width: 65%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 9.833px;
-  margin-top: 10px;
+  margin-top: 50px;
 }
 #create,
 #share,
 #select,
 #compare {
+  width: max-content;
   display: flex;
   height: 39.334px;
-  width: fit-content;
   justify-content: center;
   align-items: center;
   gap: 7.867px;
