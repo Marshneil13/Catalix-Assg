@@ -9,16 +9,16 @@ import "react-toastify/dist/ReactToastify.css";
 
 
 const Transformation = () => {
-  const [approveActive, setApproveActive] = useState(Math.floor(Math.random() * 3)+1);
-  const [approveWait, setApproveWait] = useState(Math.floor(Math.random() * 3)+1);
-  const [createActive, setCreateActive] = useState(Math.floor(Math.random() * 5)+1);
-  const [createWait, setCreateWait] = useState(Math.floor(Math.random() * 3)+1);
-  const [reviewActive, setReviewActive] = useState(Math.floor(Math.random() * 2)+1);
-  const [reviewWait, setReviewWait] = useState(Math.floor(Math.random() * 2)+1);
-  const [editActive, setEditActive] = useState(Math.floor(Math.random() * 2)+1);
-  const [editWait, setEditWait] = useState(Math.floor(Math.random() * 6)+1);
-  const [finalizeActive, setFinalizeActive] = useState(Math.floor(Math.random() * 3)+1);
-  const [finalizeWait, setFinalizeWait] = useState(0);
+  const [approveActive] = useState(Math.floor(Math.random() * 3)+1);
+  const [approveWait] = useState(Math.floor(Math.random() * 3)+1);
+  const [createActive] = useState(Math.floor(Math.random() * 5)+1);
+  const [createWait] = useState(Math.floor(Math.random() * 3)+1);
+  const [reviewActive] = useState(Math.floor(Math.random() * 2)+1);
+  const [reviewWait] = useState(Math.floor(Math.random() * 2)+1);
+  const [editActive] = useState(Math.floor(Math.random() * 2)+1);
+  const [editWait] = useState(Math.floor(Math.random() * 6)+1);
+  const [finalizeActive] = useState(Math.floor(Math.random() * 3)+1);
+  const [finalizeWait] = useState(0);
   const daysAndWeeksCount = [
     {
       active:approveActive,
@@ -65,7 +65,7 @@ console.log("WAIT SUM", waitSum);
   }
   return (
     <div className='transformation-container'>
-      <Header/>
+      <Header />
       <div className="transformation-content">
         <div className="flowchart">
           {data.flowchart.map(item => (

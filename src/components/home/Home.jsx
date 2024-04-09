@@ -3,7 +3,7 @@ import Header from "../header/Header";
 import "./home.css";
 import data from "../../data/home1.json";
 import Carousel from "../carousel/Carousel";
-import videoIcon from "../../assets/home-icons/Video thumbnail.png"
+import videoIcon from "../../assets/home-icons/Video thumbnail.png";
 
 const Home = () => {
   // console.log("HOME DATA", data);
@@ -18,15 +18,19 @@ const Home = () => {
           <p>{data["left-content"].paragraph}</p>
 
           <div className="carousel-container">
-            <Carousel slides={slides}/>
+            <Carousel slides={slides} />
           </div>
         </div>
         <div className="right-content">
-        <h2>{data["right-content"].heading}</h2>
+          <h2>{data["right-content"].heading}</h2>
           <p>{data["right-content"].paragraph}</p>
-          
-          <img src={videoIcon} alt="" style={{borderRadius: "15.882px"}} className="video"/>
-          
+
+          <img
+            src={videoIcon}
+            alt=""
+            style={{ borderRadius: "15.882px" }}
+            className="video"
+          />
         </div>
       </div>
     </div>

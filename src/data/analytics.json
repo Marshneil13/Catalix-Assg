@@ -1,40 +1,65 @@
 {
-    "graphs": [
-        {
-            "title": "efficiency",
-            "about": "Lorem Ipsum",
-            "changeValue": "1.1921",
-            "changePercentage": "+0.0015 (+0.13%)",
-            "currency": "0.00 USD",
-            "id": "one",
-            "imgPath": "../../assets/analytics-icons/Path 1.png"
-        },
-        {
-            "title": "Time to market",
-            "about": "Lorem Ipsum",
-            "changeValue": "327,176",
-            "changePercentage": "-97,914.00 (-23.03%)",
-            "currency": "131,040,723,108 JPY",
-            "id": "two",
-            "imgPath": "../../assets/analytics-icons/Path 2.png"
-        },
-        {
-            "title": "tech debt",
-            "about": "Lorem Ipsum",
-            "changeValue": "1.1763",
-            "changePercentage": "+0.0015 (+0.13%)",
-            "currency": "0.00 USD",
-            "id":"three",
-            "imgPath": "../../assets/analytics-icons/Path 3.png"
-        },
-        {
-            "title": "Predictability",
-            "about": "Lorem Ipsum",
-            "changeValue": "0.00313010",
-            "changePercentage": "-0.00050430 (-13.88%)",
-            "currency": "1,566 BTC",
-            "id":"four",
-            "imgPath": "../../assets/analytics-icons/Path 4.png"
-        }
-    ]
+  "graphs": [
+    {
+      "title": "efficiency",
+      "about": "Lorem Ipsum",
+      "changeValue": "1.1921",
+      "changePercentage": "+0.0015 (+0.13%)",
+      "currency": "0.00 USD",
+      "id": "one",
+      "imgPath": "../../assets/analytics-icons/Path 1.png"
+    },
+    {
+      "title": "Time to market",
+      "about": "Lorem Ipsum",
+      "changeValue": "327,176",
+      "changePercentage": "-97,914.00 (-23.03%)",
+      "currency": "131,040,723,108 JPY",
+      "id": "two",
+      "imgPath": "../../assets/analytics-icons/Path 2.png"
+    },
+    {
+      "title": "tech debt",
+      "about": "Lorem Ipsum",
+      "changeValue": "1.1763",
+      "changePercentage": "+0.0015 (+0.13%)",
+      "currency": "0.00 USD",
+      "id": "three",
+      "imgPath": "../../assets/analytics-icons/Path 3.png"
+    },
+    {
+      "title": "Predictability",
+      "about": "Lorem Ipsum",
+      "changeValue": "0.00313010",
+      "changePercentage": "-0.00050430 (-13.88%)",
+      "currency": "1,566 BTC",
+      "id": "four",
+      "imgPath": "../../assets/analytics-icons/Path 4.png"
+    }
+  ],
+  "cards": [
+    {
+      "title": "On Time",
+      "achieved": "Completed Iteratiions",
+      "total": "Total Iterations",
+      "hasPercentage": true,
+      "percentage": "% Iterations Done",
+      "obj": {}
+    },
+    {
+      "title": "On Scope",
+      "achieved": "Story Points Done",
+      "total": "Total Story Points",
+      "hasPercentage": true,
+      "percentage": "% Stories Done",
+      "obj": {}
+    },
+    {
+      "title": "On Velocity",
+      "achieved": "Average Velocity",
+      "total": "Required Velocity",
+      "hasPercentage": false,
+      "obj": {}
+    }
+  ]
 }

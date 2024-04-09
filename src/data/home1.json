@@ -1,36 +1,36 @@
 {
-    "left-content": {
-        "heading": "Set-up Catalix for Success",
-        "paragraph": "Get Catalix up to date or start your transformation by following the guide below."
+  "left-content": {
+    "heading": "Set-up Catalix for Success",
+    "paragraph": "Get Catalix up to date or start your transformation by following the guide below."
+  },
+  "right-content": {
+    "heading": "Get ready to transform",
+    "paragraph": "Here’s a video to get started. As your transformation progresses, you’ll get fresh tips and insights here."
+  },
+  "slides": [
+    {
+      "serial": 1,
+      "text": "Assess your current development processes and workflows"
     },
-    "right-content": {
-        "heading": "Get ready to transform",
-        "paragraph": "Here’s a video to get started. As your transformation progresses, you’ll get fresh tips and insights here."
+    {
+      "serial": 2,
+      "text": "Build your development value stream map"
     },
-    "slides": [
-        {
-          "serial": 1,
-          "text": "Assess your current development processes and workflows"
-        },
-        {
-          "serial": 2,
-          "text": "Build your development value stream map"
-        },
-        {
-          "serial": 3,
-          "text": "Identify bottlenecks and areas for improvement in the value stream"
-        },
-        {
-          "serial": 4,
-          "text": "Implement strategies to streamline and optimize the value stream"
-        },
-        {
-          "serial": 5,
-          "text": "Continuously monitor and refine your value stream map to adapt to changing needs and circumstances"
-        },
-        {
-          "serial": 6,
-          "text": "Measure the effectiveness of your improvements and iterate as necessary to enhance efficiency and productivity"
-        }
-      ]
+    {
+      "serial": 3,
+      "text": "Identify bottlenecks and areas for improvement in the value stream"
+    },
+    {
+      "serial": 4,
+      "text": "Implement strategies to streamline and optimize the value stream"
+    },
+    {
+      "serial": 5,
+      "text": "Continuously monitor and refine your value stream map to adapt to changing needs and circumstances"
+    },
+    {
+      "serial": 6,
+      "text": "Measure the effectiveness of your improvements and iterate as necessary to enhance efficiency and productivity"
+    }
+  ]
 }

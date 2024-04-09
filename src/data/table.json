@@ -1,0 +1,53 @@
+{
+    "header": [
+        {
+            "title": "Page",
+            "value": "NUM.",
+            "trend": "trends",
+            "numeric": false,
+            "datakey": "page"
+        },
+        {
+            "title": "Pageviews",
+            "value": "356,928",
+            "trend": "chart",
+            "numeric": true,
+            "datakey": "pageviews"
+        },
+        {
+            "title": "Unique pageviewss",
+            "value": "275,5888",
+            "trend": "chart",
+            "numeric": true,
+            "datakey": "unique"
+        },
+        {
+            "title": "Avg. time on page",
+            "value": "00:03:51",
+            "trend": "chart",
+            "numeric": true,
+            "datakey": "average"
+        },
+        {
+            "title": "Extrances",
+            "value": "315,643",
+            "trend": "chart",
+            "numeric": true,
+            "datakey": "extrances"
+        },
+        {
+            "title": "% Exit",
+            "value": "39,84%",
+            "trend": "chart",
+            "numeric": true,
+            "datakey": "exit"
+        },
+        {
+            "title": "Page value",
+            "value": "$19,983",
+            "trend": "chart",
+            "numeric": true,
+            "datakey": "pagevalue"
+        }
+    ]
+}
