@@ -101,9 +101,9 @@ console.log("WAIT SUM", waitSum);
           </div>
         </div>
         <div className="time-frame-container">
-          <p>Flow time = {activeSum + waitSum}</p>
-          <p>Total Active time = {activeSum}</p>
-          <p>Total Wait time = {waitSum}</p>
+          <p>Flow time = {activeSum + waitSum} Days</p>
+          <p>Total Active time = {activeSum} Days</p>
+          <p>Total Wait time = {waitSum} Days</p>
         </div>
         <div className='button-container'>
         <button onClick={handleSave}>Save</button>
